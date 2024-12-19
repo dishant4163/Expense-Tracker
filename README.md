@@ -2,6 +2,7 @@
 
 A simple and intuitive web application to help you track your income and expenses. The app allows you to input income and expense details, view your total income and expense, as well as monitor your savings and the maximum income/expense recorded.
 
+
 ## Features
 
 - **Add Income and Expenses**: Users can enter the amount and description for both income and expense categories.
