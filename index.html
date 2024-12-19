@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body class="bg-black">
+    <main>
+        <section>
+            <input type="text" id="ipAmt" placeholder="Enter Amount">
+            <input type="text" id="ipProd" placeholder="Enter Product">
+            <select id="inEx">
+                <option value="a">Income</option>
+                <option value="b">Expense</option>
+            </select>
+            <button id="btn">ENTER</button>
+        </section>
+        <h4></h4>
+        <h6 id="bSavings"> Start adding no entry yet!</h6>
+        <section class="maxInEx">
+            <div>
+                <h2>Maximum Income : <b id="maxIn"></b> </h2>
+            </div>
+            <div>
+                <h2>Maximum Expense : <b id="maxEx"></b> </h2>
+            </div>
+        </section>
+        <section>
+            <div id="inDiv">
+                <h3>Income</h3>
+                <p><span>No.</span><span>Item</span><span>Amount</span></p>
+            </div>
+            <div id="exDiv">
+                <h3>Expense</h3>
+                <p><span>No.</span><span>Item</span><span>Amount</span></p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h5>Total Income : <b id="bIn"></b></h5>
+            </div>
+            <div>
+                <h5>Total Expense : <b id="bEx"></b> </h5>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
